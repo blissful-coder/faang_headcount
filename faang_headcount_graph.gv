@@ -1,0 +1,10 @@
+// FAANG Headcount Analysis
+digraph {
+	math [label="Math Agent"]
+	research [label="Research Agent"]
+	poet [label="Poet Agent"]
+	supervisor [label=Supervisor]
+	supervisor -> research [label="Search Headcount"]
+	supervisor -> math [label="Add Headcount"]
+	supervisor -> poet [label="Write Poem"]
+}
